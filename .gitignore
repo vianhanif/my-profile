@@ -7,6 +7,7 @@ npm-debug.log*
 # ignore built static files
 /dist
 /build
+/src
 /webpack-assets.json
 /webpack-stats.json
 /react-loadable.json

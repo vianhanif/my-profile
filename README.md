@@ -1,3 +1,5 @@
+### Original Source : https://github.com/combine/universal-react-redux
+
 # Universal React Redux Boilerplate
 
 A universal React/Redux boilerplate with sensible defaults. Out of the box, this

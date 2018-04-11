@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 import createHistory from 'history/createBrowserHistory';
 import configureStore from '@store';
-import App from '@containers/App';
+import App from '@app/pages';
 import Loadable from 'react-loadable';
 
 // Hydrate the redux store from server state.

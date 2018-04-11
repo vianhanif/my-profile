@@ -26,14 +26,14 @@ app.use(compression());
 app.use(
   '/assets',
   express.static(path.join(__dirname, '../' + process.env.PUBLIC_OUTPUT_PATH)),
-  express.static(path.join(__dirname, '../common/images')),
-  express.static(path.join(__dirname, '../common/fonts'))
+  express.static(path.join(__dirname, '../app/assets/images')),
+  express.static(path.join(__dirname, '../app/assets/fonts'))
 );
 
 // handle browsers requesting favicon
 app.use(
   '/favicon.ico',
-  express.static(path.join(__dirname, '../common/images/favicon/favicon.ico'))
+  express.static(path.join(__dirname, '../app/images/favicon/favicon.ico'))
 );
 
 // Mount the REST API

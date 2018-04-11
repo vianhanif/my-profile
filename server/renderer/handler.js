@@ -8,7 +8,7 @@ import Loadable from 'react-loadable';
 import render from './render';
 import routes from '@routes';
 import configureStore from '@store';
-import App from '@containers/App';
+import App from '@app/pages';
 import config from '@config';
 
 let stats = null;

@@ -17,7 +17,7 @@
     "@css": "app/assets",
     "@pages": "app/pages",
     "@reducers": "app/modules",
-    "@routes": "app/pages/routes",
+    "@routes": "app/routes",
     "@store": "app/store",
     "@templates": "server/templates",
     "@config": "config",

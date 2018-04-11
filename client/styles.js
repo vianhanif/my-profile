@@ -2,4 +2,4 @@
 // import 'semantic-ui-css/semantic.min.css';
 
 // Base styles
-import '@css/styling/base.scss';
+import '@css/styling/index.scss';

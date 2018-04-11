@@ -1,7 +1,7 @@
 import './registerAliases';
 import fs from 'fs';
 import path from 'path';
-import config from '@config';
+import config from '@config/';
 import Loadable from 'react-loadable';
 import chokidar from 'chokidar';
 

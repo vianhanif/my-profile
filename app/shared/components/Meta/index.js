@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
-import config from '@config'
+import config from '@config/'
 import Helmet from 'react-helmet';
 
 const defaultUrl = config.url.default;

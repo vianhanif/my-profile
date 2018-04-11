@@ -6,10 +6,10 @@ import { renderToString } from 'react-dom/server';
 import { getBundles } from 'react-loadable/webpack';
 import Loadable from 'react-loadable';
 import render from './render';
-import routes from '@routes';
-import configureStore from '@store';
+import routes from '@routes/';
+import configureStore from '@store/';
 import App from '@app/pages';
-import config from '@config';
+import config from '@config/';
 
 let stats = null;
 
@@ -120,7 +120,7 @@ export default function handleRender(req, res) {
   Promise.all(fetchData).then(() => {
     const state = store.getState();
     const html = renderToString(getComponent());
-    const bundles = stats && getBundles(stats, modules) || [];
+    const bundles = (stats && getBundles(stats, modules)) || [];
     const markup = render(html, state, bundles);
     const status = matches.length && matches[0].match.path === '*' ? 404 : 200;
 

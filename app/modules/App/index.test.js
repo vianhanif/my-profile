@@ -1,13 +1,14 @@
 import React from 'react'
+import createHistory from 'history/createBrowserHistory';
 import renderer from 'react-test-renderer'
 import colors from 'colors'
-import store from '../../../src/store'
+import configureStore from '@store/'
 import * as actions from './actions'
 
 const green = (text) => colors.green(colors.bold(text))
 const yellow = (text) => colors.bgBlack(colors.yellow(colors.bold(text)))
-
-// const store = configureStore()
+const history = createHistory()
+const store = configureStore({}, history)
 
 describe('Module::App', () => {
 

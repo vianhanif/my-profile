@@ -57,7 +57,7 @@ export default merge.strategy(mergeStrategy)(baseConfig, {
         test: /\.scss$/,
         exclude: [
           path.resolve(__dirname, '../node_modules'),
-          path.resolve(__dirname, '../common/css/base')
+          path.resolve(__dirname, '../app/assets/styling/index')
         ],
         use: [
           {
@@ -74,7 +74,7 @@ export default merge.strategy(mergeStrategy)(baseConfig, {
           {
             loader: 'sass-resources-loader',
             options: {
-              resources: './common/css/resources/*.scss'
+              resources: './app/assets/styling/pages/*/**.scss'
             }
           }
         ]

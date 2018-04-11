@@ -64,12 +64,12 @@ export default {
       },
       {
         // For all .scss files that should be modularized. This should exclude
-        // anything inside node_modules and everything inside common/css/base
+        // anything inside node_modules and everything inside styling/index
         // since they should be globally scoped.
         test: /\.scss$/,
         exclude: [
           path.resolve(__dirname, '../node_modules'),
-          path.resolve(__dirname, '../common/css/base')
+          path.resolve(__dirname, '../app/assets/styling/index')
         ],
         use: ['css-hot-loader'].concat(
           extractTextPlugin.extract({
@@ -89,7 +89,7 @@ export default {
               {
                 loader: 'sass-resources-loader',
                 options: {
-                  resources: './common/css/resources/*.scss'
+                  resources: './app/assets/styling/pages/*/**.scss'
                 }
               }
             ]
@@ -102,7 +102,7 @@ export default {
         test: /\.scss$/,
         include: [
           path.resolve(__dirname, '../node_modules'),
-          path.resolve(__dirname, '../common/css/base')
+          path.resolve(__dirname, '../app/assets/styling/index')
         ],
         use: ['css-hot-loader'].concat(
           extractTextPlugin.extract({
@@ -113,7 +113,7 @@ export default {
               {
                 loader: 'sass-resources-loader',
                 options: {
-                  resources: './common/css/resources/*.scss'
+                  resources: './app/assets/styling/pages/*/**.scss'
                 }
               }
             ]

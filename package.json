@@ -36,7 +36,7 @@
     "prod:build:client": "better-npm-run prod:build:client",
     "prod:build:ssr": "better-npm-run prod:build:ssr",
     "prod:build:server": "better-npm-run prod:build:server",
-    "test": "better-npm-run test",
+    "test": "better-npm-run test -u",
     "test:all": "better-npm-run test:all",
     "test:watch": "better-npm-run test:watch",
     "test:all:watch": "better-npm-run test:all:watch",

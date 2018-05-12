@@ -7,7 +7,8 @@ import {
   MyName,
   Education,
   Achievement,
-  Skill
+  Skill,
+  Timeline
 } from '@components/'
 import '../../assets/styling/pages/Home/index.scss'
 
@@ -46,6 +47,11 @@ export default connect(
         <div className="col">
           <div className="col-100">
             <Skill/>
+          </div>
+        </div>
+        <div className="col">
+          <div className="col-80-centered">
+            <Timeline/>
           </div>
         </div>
       </div>

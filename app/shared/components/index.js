@@ -4,6 +4,7 @@ import MyName from './MyName'
 import Education from './Education'
 import Achievement from './Achievement'
 import Skill from './Skill'
+import Timeline from './Timeline'
 
 export {
   Meta,
@@ -11,5 +12,6 @@ export {
   MyName,
   Education,
   Achievement,
-  Skill
+  Skill,
+  Timeline
 }

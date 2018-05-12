@@ -11,17 +11,18 @@ export default connect(
   dispatch => bindActionCreators({ loadData }, dispatch)
 )(class Home extends Component {
 
+  static fetchData({ store, route, match}) {
+    return Promise.all([
+      store.dispatch(loadData())
+    ])
+  }
+
   static propTypes = {
 
   };
 
   constructor(props) {
     super(props);
-    if (!this.props.app.value) {
-      this.props.loadData().then(
-        () => {}
-      )
-    }
     this.state = {
 
     };

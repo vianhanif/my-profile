@@ -22,8 +22,7 @@ export const loadData = (data = {}) => {
           })
           resolve()
         }, 2000)
-      },
-      reject => {}
+      }
     )
   }
 }

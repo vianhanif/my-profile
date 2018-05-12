@@ -29,7 +29,7 @@
   "scripts": {
     "start": "better-npm-run dev:start",
     "prod": "better-npm-run prod:build && better-npm-run serve",
-    "serve": "better-npm-run serve",
+    "serve": "shell-exec 'better-npm-run serve'",
     "dev:start": "better-npm-run dev:start",
     "dev:start:server": "better-npm-run dev:start:server",
     "dev:start:client": "better-npm-run dev:start:client",

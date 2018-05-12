@@ -3,13 +3,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
-import {
-  MyName,
-  Education,
-  Achievement,
-  Skill
-} from '@components/'
-import '../../assets/styling/pages/Home/index.scss'
+import style from './style.scss'
 
 export default connect(
   state => ({ ...state }),
@@ -33,21 +27,27 @@ export default connect(
 
   render() {
     return (
-      <div className="contained page" id="home">
-        <div className="col">
-          <div className="col-40">
-            <MyName/>
-            <Education/>
-          </div>
-          <div className="col-60">
-            <Achievement/>
-          </div>
-        </div>
-        <div className="col">
-          <div className="col-100">
-            <Skill/>
-          </div>
-        </div>
+      <div className={style.skill}>
+        <ul>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Name</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Name</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Name</p>
+          </li>
+        </ul>
       </div>
     );
   }

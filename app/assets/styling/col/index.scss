@@ -18,6 +18,7 @@
   &- {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 15px;
   }
   &-40 {
     @extend .col-;
@@ -32,5 +33,9 @@
     @include tablet {
       width: 100%;
     }
+  }
+  &-100 {
+    @extend .col-;
+    width: 100%;
   }
 }

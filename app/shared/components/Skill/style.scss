@@ -1,0 +1,27 @@
+.skill {
+  width: 100%;
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    li {
+      padding-left: 20px;
+      .image {
+        height: 100px;
+        width: 100px;
+        background: rgba(#fafafa, .9);
+        border-radius: 100%;
+        img {
+
+        }
+      }
+      p {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        color: #81D4FA;
+        font-size: 14px;
+      }
+    }
+  }
+}

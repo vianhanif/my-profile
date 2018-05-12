@@ -33,19 +33,97 @@ export default connect(
             <div className={style.image}>
               <img src="" alt=""/>
             </div>
-            <p>Name</p>
+            <p>Photoshop</p>
           </li>
           <li>
             <div className={style.image}>
               <img src="" alt=""/>
             </div>
-            <p>Name</p>
+            <p>Illustrator</p>
           </li>
           <li>
             <div className={style.image}>
               <img src="" alt=""/>
             </div>
-            <p>Name</p>
+            <p>Java</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>PHP</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Ruby</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Javascript</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Python</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>C++</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>HTML</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>CSS</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Shellscript</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Rails</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Vue.js</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>React.js</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>SASS</p>
+          </li>
+          <li>
+            <div className={style.image}>
+              <img src="" alt=""/>
+            </div>
+            <p>Webpack</p>
           </li>
         </ul>
       </div>

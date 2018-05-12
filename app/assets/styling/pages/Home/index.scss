@@ -1,5 +1,18 @@
 @import "../../mixin";
 
 #home {
-  
+  @include tablet {
+    .profile {
+      order: 1;
+    }
+    .skill {
+      order: 2;
+    }
+    .achievement {
+      order: 3;
+    }
+    .timeline {
+      order: 3;
+    }
+  }
 }

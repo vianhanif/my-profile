@@ -35,21 +35,26 @@ export default connect(
   render() {
     return (
       <div className="contained page" id="home">
-        <div className="col">
+        <div className="col profile">
           <div className="col-40">
             <MyName/>
             <Education/>
           </div>
-          <div className="col-60">
+          <div className="col-60 only-desktop">
             <Achievement/>
           </div>
         </div>
-        <div className="col">
+        <div className="col achievement not-desktop">
+          <div className="col-100">
+            <Achievement/>
+          </div>
+        </div>
+        <div className="col skill">
           <div className="col-100">
             <Skill/>
           </div>
         </div>
-        <div className="col">
+        <div className="col timeline">
           <div className="col-80-centered">
             <Timeline/>
           </div>

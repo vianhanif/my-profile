@@ -2,7 +2,7 @@ import Meta from './Meta'
 import RouteWithSubRoutes from './RouteWithSubRoutes'
 import MyName from './MyName'
 import Education from './Education'
-import Achievement from './Achievement'
+import Travel from './Travel'
 import Skill from './Skill'
 import Timeline from './Timeline'
 
@@ -11,7 +11,7 @@ export {
   RouteWithSubRoutes,
   MyName,
   Education,
-  Achievement,
+  Travel,
   Skill,
   Timeline
 }

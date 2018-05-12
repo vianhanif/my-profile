@@ -1,1 +1,36 @@
-{"javascript":{"app":"/assets/app.6d77bf6e23e9f8a45fc5.js","vendor":"/assets/vendor.6d77bf6e23e9f8a45fc5.js"},"styles":{"app":"/assets/app.8da74c6d53b1df470c98aceb4de32750.css"},"assets":{"./app/assets/images/me.png":"/assets/e9874bd63ea55195c111cc152e17f6e6.png"},"webpack":{"version":"3.11.0"}}
+{
+  "javascript": {
+    "app": "http://localhost:3001/assets/app.bundle.js",
+    "vendor": "http://localhost:3001/assets/vendor.js"
+  },
+  "styles": {
+    "app": "http://localhost:3001/assets/app.css",
+    "vendor": "http://localhost:3001/assets/vendor.css"
+  },
+  "assets": {
+    "./app/assets/images/image1.jpg": "http://localhost:3001/assets/0296a2e0af16cbcebcca543ead8ad122.jpg",
+    "./app/assets/images/image10.jpg": "http://localhost:3001/assets/e1a06814cdac2a5241f0492a0c1995d9.jpg",
+    "./app/assets/images/image11.jpg": "http://localhost:3001/assets/bbf5b538fc75773eb1726fa10868b43f.jpg",
+    "./app/assets/images/image12.jpg": "http://localhost:3001/assets/130fc467f6339a5e22cd72634ce3a536.jpg",
+    "./app/assets/images/image13.jpg": "http://localhost:3001/assets/c565c4c513434ee63450352b1dc32868.jpg",
+    "./app/assets/images/image14.jpg": "http://localhost:3001/assets/4d67d0af730daa6e9a228aa0d72d9413.jpg",
+    "./app/assets/images/image15.jpg": "http://localhost:3001/assets/f9273f62e0eab324844cff6eab2d3838.jpg",
+    "./app/assets/images/image16.jpg": "http://localhost:3001/assets/d5ac3c45fd6ebe4b150965148fa031ba.jpg",
+    "./app/assets/images/image17.jpg": "http://localhost:3001/assets/7117bcf9f127af3ceede6ea22f4fe608.jpg",
+    "./app/assets/images/image18.jpg": "http://localhost:3001/assets/52b4226e85ca7b11596a0ede7b8c756a.jpg",
+    "./app/assets/images/image19.jpg": "http://localhost:3001/assets/8a2335f6b2ec95cc6aa8c4a8af382a4c.jpg",
+    "./app/assets/images/image2.jpg": "http://localhost:3001/assets/102b6991134bdcc649803c1480d130c5.jpg",
+    "./app/assets/images/image20.jpg": "http://localhost:3001/assets/6c346b60ff862f0cca8edd3df9543c26.jpg",
+    "./app/assets/images/image3.jpg": "http://localhost:3001/assets/e0eca269169a34db0fbfb1bfd2967716.jpg",
+    "./app/assets/images/image4.jpg": "http://localhost:3001/assets/b201b9f34437196fa714cb4e22463e31.jpg",
+    "./app/assets/images/image5.jpg": "http://localhost:3001/assets/1f0d567869f4d702c35b559bc4683c37.jpg",
+    "./app/assets/images/image6.jpg": "http://localhost:3001/assets/996495ae2a817154cebab4e504c35e86.jpg",
+    "./app/assets/images/image7.jpg": "http://localhost:3001/assets/e1ecd584206911ad9470a39642ca62a2.jpg",
+    "./app/assets/images/image8.jpg": "http://localhost:3001/assets/2f569382dbecd627ded564a8448b4cd0.jpg",
+    "./app/assets/images/image9.jpg": "http://localhost:3001/assets/a63b6c4ac9449bee8e232b087938c0c7.jpg",
+    "./app/assets/images/me.png": "http://localhost:3001/assets/e9874bd63ea55195c111cc152e17f6e6.png"
+  },
+  "webpack": {
+    "version": "3.11.0"
+  }
+}

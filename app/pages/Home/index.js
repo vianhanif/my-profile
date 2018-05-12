@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux'
 import {
   MyName,
   Education,
-  Achievement,
+  Travel,
   Skill,
   Timeline
 } from '@components/'
@@ -41,14 +41,16 @@ export default connect(
             <Education/>
           </div>
           <div className="col-60 only-desktop">
-            <Achievement/>
+            <Travel/>
           </div>
         </div>
         <div className="col achievement not-desktop">
           <div className="col-100">
-            <Achievement/>
+            <Travel/>
           </div>
         </div>
+        {/*
+
         <div className="col skill">
           <div className="col-100">
             <Skill/>
@@ -59,6 +61,7 @@ export default connect(
             <Timeline/>
           </div>
         </div>
+        */}
       </div>
     );
   }

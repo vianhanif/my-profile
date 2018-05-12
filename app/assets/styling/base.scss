@@ -1,9 +1,15 @@
 @import "./mixin";
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,700,700italic);
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #303F9F;
 }
 
 .page {

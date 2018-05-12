@@ -1,6 +1,6 @@
 import Home from '@pages/Home'
-import About from '@pages/About'
 import Page404 from '@pages/404'
+
 export default [
   {
     path: '/',
@@ -8,16 +8,7 @@ export default [
     component: Home,
     meta: {
       id: 'homepage',
-      title: 'Home Page'
-    }
-  },
-  {
-    path: '/about',
-    exact: true,
-    component: About,
-    meta: {
-      id: 'aboutpage',
-      title: 'About Page'
+      title: `@vianhanif - Hi, There!`
     }
   },
   {
@@ -25,7 +16,7 @@ export default [
     component: Page404,
     meta: {
       id: 'not-found',
-      title: 'Home Page'
+      title: 'Oopps! wrong page'
     }
   }
 ];

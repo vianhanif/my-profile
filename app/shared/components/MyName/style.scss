@@ -1,0 +1,55 @@
+.myname {
+  background-color: #009688;
+  box-shadow: -2px 2px 13px rgba(#000,.39);
+  border-radius: 6px;
+  width: 100%;
+  .image {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    img {
+      width: auto;
+      max-height: 160px;
+    }
+  }
+  h4 {
+    text-align: center;
+    clear: both;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FAFAFA;
+  }
+  .social {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li {
+      margin-left: 8px;
+      margin-right: 8px;
+      a {
+        text-decoration: none;
+        color: #FFF9C4;
+        transition: all 300ms;
+        &:hover {
+          color: #FFEB3B;
+        }
+      }
+    }
+  }
+  .description {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    p {
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 6px;
+      text-align: center;
+      font-size: 14px;
+      width: 80%;
+      color: #5D4037;
+    }
+  }
+}

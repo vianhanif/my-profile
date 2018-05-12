@@ -6,7 +6,9 @@
   "styles": {
     "app": "http://localhost:3001/assets/app.css"
   },
-  "assets": {},
+  "assets": {
+    "./app/assets/images/me.png": "http://localhost:3001/assets/e9874bd63ea55195c111cc152e17f6e6.png"
+  },
   "webpack": {
     "version": "3.11.0"
   }

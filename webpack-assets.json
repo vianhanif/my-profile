@@ -1,15 +1,1 @@
-{
-  "javascript": {
-    "app": "http://localhost:3001/assets/app.bundle.js",
-    "vendor": "http://localhost:3001/assets/vendor.js"
-  },
-  "styles": {
-    "app": "http://localhost:3001/assets/app.css"
-  },
-  "assets": {
-    "./app/assets/images/me.png": "http://localhost:3001/assets/e9874bd63ea55195c111cc152e17f6e6.png"
-  },
-  "webpack": {
-    "version": "3.11.0"
-  }
-}
+{"javascript":{"app":"/assets/app.3e3695235e01409433c7.js","vendor":"/assets/vendor.3e3695235e01409433c7.js"},"styles":{"app":"/assets/app.8da74c6d53b1df470c98aceb4de32750.css"},"assets":{"./app/assets/images/me.png":"/assets/e9874bd63ea55195c111cc152e17f6e6.png"},"webpack":{"version":"3.11.0"}}

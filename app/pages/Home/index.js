@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
 import {
-  MyName
+  MyName,
+  Education
 } from '@components/'
 import '../../assets/styling/pages/Home/index.scss'
 
@@ -34,8 +35,10 @@ export default connect(
         <div className="col">
           <div className="col-40">
             <MyName/>
+            <Education/>
           </div>
           <div className="col-60">
+            ASDD
           </div>
         </div>
       </div>

@@ -48,7 +48,7 @@ export default connect(
         <div className={style.description}>
           <div>
             <p>
-              Single. Born in 29 December 1993, first child of 4 siblings.
+              Born in 29 December 1993, first child of 4 siblings.
             </p>
             <p>
               Excited to work as teams and always interested in Front End and Software Engineering.

@@ -1,7 +1,8 @@
 .myname {
-  background-color: #009688;
+  background-color: #039BE5;
   box-shadow: -2px 2px 13px rgba(#000,.39);
-  border-radius: 6px;
+  border-radius: 4px;
+  margin-bottom: 15px;
   width: 100%;
   .image {
     clear: both;
@@ -17,7 +18,7 @@
     clear: both;
     font-size: 24px;
     font-weight: 500;
-    color: #FAFAFA;
+    color: #B3E5FC;
   }
   .social {
     padding-top: 15px;
@@ -49,7 +50,7 @@
       text-align: center;
       font-size: 14px;
       width: 80%;
-      color: #5D4037;
+      color: rgba(#000,.69);
     }
   }
 }

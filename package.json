@@ -9,8 +9,8 @@
     "url": "https://github.com/combine/universal-react-redux.git"
   },
   "engines": {
-    "node": "8.x.x",
-    "npm": "3.x.x"
+    "node": "9.3.0",
+    "npm": "6.0.0"
   },
   "_moduleAliases": {
     "@app": "app",

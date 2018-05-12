@@ -42,7 +42,7 @@
     "test:watch": "better-npm-run test:watch",
     "test:all:watch": "better-npm-run test:all:watch",
     "lint": "better-npm-run lint",
-    "heroku-postbuild": "better-npm-run prod:build"
+    "heroku-postbuild": "better-npm-run prod:build && better-npm-run serve"
   },
   "betterScripts": {
     "serve": {

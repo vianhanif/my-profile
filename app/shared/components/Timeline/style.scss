@@ -1,17 +1,19 @@
 .timeline {
-  background-color: #8D6E63;
-  box-shadow: -2px 2px 13px rgba(#000,.39);
-  border-radius: 4px;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  min-height: 300px;
   h4 {
-    padding-top: 15px;
     padding-bottom: 5px;
-    border-bottom: 1px solid rgba(#000,.29);
     width: 100%;
-    font-size: 22px;
-    color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(#fafafa, .9);
+    padding-bottom: 10px;
+  }
+  .panel {
+    background-color: #8D6E63;
+    box-shadow: -2px 2px 13px rgba(#000,.39);
+    border-radius: 8px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 300px;
   }
 }

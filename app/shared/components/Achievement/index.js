@@ -29,6 +29,8 @@ export default connect(
     return (
       <div className={style.achievement}>
         <h4>Achievements</h4>
+        <div className={style.panel}>
+        </div>
       </div>
     );
   }

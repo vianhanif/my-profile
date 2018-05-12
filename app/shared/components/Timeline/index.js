@@ -29,6 +29,8 @@ export default connect(
     return (
       <div className={style.timeline}>
         <h4>Timeline</h4>
+        <div className={style.panel}>
+        </div>
       </div>
     );
   }

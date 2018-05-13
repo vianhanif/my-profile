@@ -27,9 +27,10 @@ export default connect(
 
   render() {
     const educations = require('./educations').default
+    const title = `Read & <span style="color: #FFEE58;">Play</span>grounds`
     return (
       <div className={style.education}>
-        <h4>Read & Playgrounds</h4>
+        <h4 dangerouslySetInnerHTML={{__html: title}}/>
         <div className={style.panel}>
           <ul className={style.yearly}>
             {educations.map((edu, index) => {

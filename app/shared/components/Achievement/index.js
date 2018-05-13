@@ -27,9 +27,10 @@ export default connect(
 
   render() {
     const achievements = require('./achievements').default
+    const title = `Reminding <span style="color: #FFEE58;">Moment</span>s`
     return (
       <div className={style.achievement}>
-        <h4>Reminding Moments</h4>
+        <h4 dangerouslySetInnerHTML={{__html: title}}/>
         <div className={style.inlined}>
           <div className={style.panel}>
             {achievements.slice(0, 3).map((achieve, index) => {

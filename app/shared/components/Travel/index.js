@@ -28,9 +28,10 @@ export default connect(
 
   render() {
     const images = require('./images').default
+    const title = `A Glimpse of <span style="color:#FFEE58;">Time</span>`
     return (
       <div className={style.achievement}>
-        <h4>A Glimpse of Time</h4>
+        <h4 dangerouslySetInnerHTML={{__html: title}}/>
         <div className={style.panel}>
           <Carousel emulateTouch showIndicators={false} showThumbs={false} showStatus={false}>
             {images.map((image, index) => {

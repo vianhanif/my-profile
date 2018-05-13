@@ -15,17 +15,17 @@ export default [
       desc: '3<sup>rd</sup> Champ in Hackathon Merdeka Depok'
     },
     {
-      icon: null,
+      icon: require('@css/images/ub.png'),
       year: '2016',
       desc: '1<sup>st</sup> Champ in Islam App Contest UB'
     },
     {
-      icon: null,
+      icon: require('@css/images/ugm.gif'),
       year: '2016',
       desc: '2<sup>nd</sup> Champ in Vocompfest UGM'
     },
     {
-      icon: require('@css/images/ahwalnote.png'),
+      icon: require('@css/images/amikom.png'),
       year: '2016',
       desc: 'Merit Champ in AMICTA STMIK AMIKOM'
     }

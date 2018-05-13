@@ -1,1 +1,42 @@
-{"javascript":{"app":"/assets/app.7b01d41d342662f389c5.js","vendor":"/assets/vendor.7b01d41d342662f389c5.js"},"styles":{"app":"/assets/app.744b19668e3a02c0b892705cbcc6d7e9.css","vendor":"/assets/vendor.8c9d23a36109db4f9dbdeaddfd07477e.css"},"assets":{"./app/assets/images/ahwalnote.png":"/assets/6913004d246a2179c257cf104c8fa8be.png","./app/assets/images/me.png":"/assets/e9874bd63ea55195c111cc152e17f6e6.png","./app/assets/images/image9.jpg":"/assets/a63b6c4ac9449bee8e232b087938c0c7.jpg","./app/assets/images/image1.jpg":"/assets/0296a2e0af16cbcebcca543ead8ad122.jpg","./app/assets/images/image2.jpg":"/assets/102b6991134bdcc649803c1480d130c5.jpg","./app/assets/images/image3.jpg":"/assets/e0eca269169a34db0fbfb1bfd2967716.jpg","./app/assets/images/image4.jpg":"/assets/b201b9f34437196fa714cb4e22463e31.jpg","./app/assets/images/image5.jpg":"/assets/1f0d567869f4d702c35b559bc4683c37.jpg","./app/assets/images/image6.jpg":"/assets/996495ae2a817154cebab4e504c35e86.jpg","./app/assets/images/image7.jpg":"/assets/e1ecd584206911ad9470a39642ca62a2.jpg","./app/assets/images/image8.jpg":"/assets/2f569382dbecd627ded564a8448b4cd0.jpg","./app/assets/images/image10.jpg":"/assets/e1a06814cdac2a5241f0492a0c1995d9.jpg","./app/assets/images/image11.jpg":"/assets/bbf5b538fc75773eb1726fa10868b43f.jpg","./app/assets/images/image12.jpg":"/assets/130fc467f6339a5e22cd72634ce3a536.jpg","./app/assets/images/image13.jpg":"/assets/c565c4c513434ee63450352b1dc32868.jpg","./app/assets/images/image14.jpg":"/assets/4d67d0af730daa6e9a228aa0d72d9413.jpg","./app/assets/images/image15.jpg":"/assets/f9273f62e0eab324844cff6eab2d3838.jpg","./app/assets/images/image16.jpg":"/assets/d5ac3c45fd6ebe4b150965148fa031ba.jpg","./app/assets/images/image17.jpg":"/assets/7117bcf9f127af3ceede6ea22f4fe608.jpg","./app/assets/images/image18.jpg":"/assets/52b4226e85ca7b11596a0ede7b8c756a.jpg","./app/assets/images/image19.jpg":"/assets/8a2335f6b2ec95cc6aa8c4a8af382a4c.jpg","./app/assets/images/image20.jpg":"/assets/6c346b60ff862f0cca8edd3df9543c26.jpg","./app/assets/images/donorkita.png":"/assets/1a945247b33190c7e1d97262ba57534c.png","./app/assets/images/mdk.png":"/assets/5d6b3de13c62e9f562bd62d26ae3343e.png"},"webpack":{"version":"3.11.0"}}
+{
+  "javascript": {
+    "app": "http://localhost:3001/assets/app.bundle.js",
+    "vendor": "http://localhost:3001/assets/vendor.js"
+  },
+  "styles": {
+    "app": "http://localhost:3001/assets/app.css",
+    "vendor": "http://localhost:3001/assets/vendor.css"
+  },
+  "assets": {
+    "./app/assets/images/ahwalnote.png": "http://localhost:3001/assets/6913004d246a2179c257cf104c8fa8be.png",
+    "./app/assets/images/amikom.png": "http://localhost:3001/assets/a825be9c9ca85f840fc287bfff1393ea.png",
+    "./app/assets/images/donorkita.png": "http://localhost:3001/assets/1a945247b33190c7e1d97262ba57534c.png",
+    "./app/assets/images/image1.jpg": "http://localhost:3001/assets/0296a2e0af16cbcebcca543ead8ad122.jpg",
+    "./app/assets/images/image10.jpg": "http://localhost:3001/assets/e1a06814cdac2a5241f0492a0c1995d9.jpg",
+    "./app/assets/images/image11.jpg": "http://localhost:3001/assets/bbf5b538fc75773eb1726fa10868b43f.jpg",
+    "./app/assets/images/image12.jpg": "http://localhost:3001/assets/130fc467f6339a5e22cd72634ce3a536.jpg",
+    "./app/assets/images/image13.jpg": "http://localhost:3001/assets/c565c4c513434ee63450352b1dc32868.jpg",
+    "./app/assets/images/image14.jpg": "http://localhost:3001/assets/4d67d0af730daa6e9a228aa0d72d9413.jpg",
+    "./app/assets/images/image15.jpg": "http://localhost:3001/assets/f9273f62e0eab324844cff6eab2d3838.jpg",
+    "./app/assets/images/image16.jpg": "http://localhost:3001/assets/d5ac3c45fd6ebe4b150965148fa031ba.jpg",
+    "./app/assets/images/image17.jpg": "http://localhost:3001/assets/7117bcf9f127af3ceede6ea22f4fe608.jpg",
+    "./app/assets/images/image18.jpg": "http://localhost:3001/assets/52b4226e85ca7b11596a0ede7b8c756a.jpg",
+    "./app/assets/images/image19.jpg": "http://localhost:3001/assets/8a2335f6b2ec95cc6aa8c4a8af382a4c.jpg",
+    "./app/assets/images/image2.jpg": "http://localhost:3001/assets/102b6991134bdcc649803c1480d130c5.jpg",
+    "./app/assets/images/image20.jpg": "http://localhost:3001/assets/6c346b60ff862f0cca8edd3df9543c26.jpg",
+    "./app/assets/images/image3.jpg": "http://localhost:3001/assets/e0eca269169a34db0fbfb1bfd2967716.jpg",
+    "./app/assets/images/image4.jpg": "http://localhost:3001/assets/b201b9f34437196fa714cb4e22463e31.jpg",
+    "./app/assets/images/image5.jpg": "http://localhost:3001/assets/1f0d567869f4d702c35b559bc4683c37.jpg",
+    "./app/assets/images/image6.jpg": "http://localhost:3001/assets/996495ae2a817154cebab4e504c35e86.jpg",
+    "./app/assets/images/image7.jpg": "http://localhost:3001/assets/e1ecd584206911ad9470a39642ca62a2.jpg",
+    "./app/assets/images/image8.jpg": "http://localhost:3001/assets/2f569382dbecd627ded564a8448b4cd0.jpg",
+    "./app/assets/images/image9.jpg": "http://localhost:3001/assets/a63b6c4ac9449bee8e232b087938c0c7.jpg",
+    "./app/assets/images/mdk.png": "http://localhost:3001/assets/5d6b3de13c62e9f562bd62d26ae3343e.png",
+    "./app/assets/images/me.png": "http://localhost:3001/assets/e9874bd63ea55195c111cc152e17f6e6.png",
+    "./app/assets/images/ub.png": "http://localhost:3001/assets/2b0d78fe5628d52f598feec8d894b83b.png",
+    "./app/assets/images/ugm.gif": "http://localhost:3001/assets/f874dc732be732f77ecf8e2e62061661.gif"
+  },
+  "webpack": {
+    "version": "3.11.0"
+  }
+}

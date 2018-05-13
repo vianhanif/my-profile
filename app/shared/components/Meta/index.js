@@ -6,7 +6,7 @@ import Helmet from 'react-helmet';
 const defaultUrl = config.url.default;
 const defaultTitle = config.meta.title.default;
 const defaultDescription = config.meta.title.description;
-const defaultImage = `${defaultUrl}/images/logo.jpg`;
+const defaultImage = `${defaultUrl}${config.meta.image}`;
 const defaultTwitter = config.meta.twitter;
 const defaultSep = config.meta.title.separator;
 

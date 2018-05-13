@@ -39,6 +39,7 @@ export default connect(
         <div className="col profile">
           <div className="col-40">
             <MyName/>
+            <Skill className="not-desktop"/>
             <Education/>
           </div>
           <div className="col-60 only-desktop">
@@ -54,7 +55,7 @@ export default connect(
           <div className="col-70">
             <Achievement/>
           </div>
-          <div className="col-30">
+          <div className="col-30 only-desktop">
             <Skill/>
           </div>
         </div>

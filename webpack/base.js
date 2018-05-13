@@ -140,9 +140,6 @@ export default {
               limit: 10240,
               name: 'images/[name].[hash].[ext]'
             }
-          },
-          {
-            loader: 'image-webpack-loader'
           }
         ]
       },

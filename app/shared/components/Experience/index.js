@@ -1,0 +1,99 @@
+import { connect } from 'react-redux'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
+import { Carousel } from 'react-responsive-carousel'
+import { bindActionCreators } from 'redux'
+import style from './style.scss'
+
+export default connect(
+  state => ({ ...state }),
+  dispatch => bindActionCreators({ }, dispatch)
+)(class Home extends Component {
+
+  static fetchData({ store, route, match}) {
+    return Promise.all([])
+  }
+
+  static propTypes = {
+
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    };
+  }
+
+  render() {
+    const experiences = require('./experiences').default
+    const title = `Spent Time with <span style="color:#FFEE58;">Team</span>s`
+    return (
+      <div className={style.experience}>
+        <h4 dangerouslySetInnerHTML={{__html: title}}/>
+        <div className="col-centered">
+          {experiences.map((exp, key) => {
+            const left = key % 2 === 0 ? '60' : '40'
+            const right = key % 2 === 0 ? '40' : '60'
+            const carousel = (side) => {
+              return (
+                <Carousel emulateTouch showIndicators={false} showThumbs={false} showStatus={false}>
+                  {exp.photos.map((photo, index) => {
+                    return (
+                      <div key={index} className={`${side} ${style.image}`} style={{backgroundImage: `url(${photo})`}}>
+                      </div>
+                    )
+                  })}
+                </Carousel>
+              )
+            }
+            const side = (parent) => {
+              return (
+                <div className={parent}>
+                  <div className={style.side}>
+                    <p className={style.year}>{exp.from} to {exp.to}</p>
+                    <p className={style.company}>{exp.company}</p>
+                    <p className={style.description}>{exp.description}</p>
+                    <p className={style.role}>Played as</p>
+                    <p className={style.rolename}>{exp.rolename}</p>
+                    <p className={style.role_descripsion}>{exp.role_descripsion}</p>
+                  </div>
+                </div>
+              )
+            }
+            const freelance = () => {
+              return (
+                <React.Fragment>
+                  <p className={style.timespent}>{exp.timespent}</p>
+                  <p className={style.project_name}>{exp.project_name}</p>
+                  <p className={style.description}>{exp.description}</p>
+                </React.Fragment>
+              )
+            }
+            return (
+              <div key={key} className={exp.freelance ? 'col-40' : 'col-100-fit'}>
+                <div className={exp.freelance ? style.freelance : style.panel}>
+                  {!exp.freelance && <div className="col">
+                    <div className={`col-${left}-fit ${key % 2 === 0 ? style.exp_image : style.exp_desc}`}>
+                      {key % 2 === 0 && carousel(style.left) }
+                      {key % 2 !== 0 && side(style.left) }
+                    </div>
+                    <div className={`col-${right}-fit ${key % 2 === 0 ? style.exp_desc : style.exp_image}`}>
+                      {key % 2 !== 0 && carousel(style.right) }
+                      {key % 2 === 0 && side(style.right) }
+                    </div>
+                  </div>}
+                  {exp.freelance && <div>
+                    {freelance()}
+                  </div>}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    );
+  }
+
+})

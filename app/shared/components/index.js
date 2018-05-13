@@ -6,6 +6,7 @@ import Travel from './Travel'
 import Skill from './Skill'
 import Timeline from './Timeline'
 import Achievement from './Achievement'
+import Experience from './Experience'
 
 export {
   Meta,
@@ -15,5 +16,6 @@ export {
   Travel,
   Skill,
   Timeline,
-  Achievement
+  Achievement,
+  Experience
 }

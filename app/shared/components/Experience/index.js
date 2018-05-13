@@ -91,7 +91,7 @@ export default connect(
               )
             }
             return (
-              <div key={key} className={exp.freelance ? 'col-40' : 'col-100-fit'}>
+              <div key={key} className={exp.freelance ? 'col-50' : 'col-100-fit'}>
                 <div className={exp.freelance ? style.freelance : style.panel}>
                   {!exp.freelance && <div className="col">
                     <div className={`col-${left}-fit ${key % 2 === 0 ? style.exp_image : style.exp_desc}`}>

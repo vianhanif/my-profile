@@ -145,7 +145,7 @@ export default {
             loader: 'image-webpack-loader',
             options: {
               pngquant: {
-                quality: '80-90',
+                quality: '70-80',
                 speed: 1
               }
             }

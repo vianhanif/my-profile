@@ -27,6 +27,16 @@
     padding-right: 20px;
     padding-bottom: 15px;
   }
+  &-30 {
+    @extend .col-;
+    width: 30%;
+    @include mobile {
+      width: 100%;
+    }
+    @include tablet {
+      width: 100%;
+    }
+  }
   &-40 {
     @extend .col-;
     width: 40%;
@@ -40,6 +50,16 @@
   &-60 {
     @extend .col-;
     width: 60%;
+    @include mobile {
+      width: 100%;
+    }
+    @include tablet {
+      width: 100%;
+    }
+  }
+  &-70 {
+    @extend .col-;
+    width: 70%;
     @include mobile {
       width: 100%;
     }

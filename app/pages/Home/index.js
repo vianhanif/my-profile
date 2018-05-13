@@ -8,6 +8,7 @@ import {
   Education,
   Travel,
   Skill,
+  Achievement,
   Timeline
 } from '@components/'
 import '../../assets/styling/pages/Home/index.scss'
@@ -49,19 +50,11 @@ export default connect(
             <Travel/>
           </div>
         </div>
-        {/*
-
-        <div className="col skill">
-          <div className="col-100">
-            <Skill/>
+        <div className="col sectioned">
+          <div className="col-70">
+            <Achievement/>
           </div>
         </div>
-        <div className="col timeline">
-          <div className="col-80-centered">
-            <Timeline/>
-          </div>
-        </div>
-        */}
       </div>
     );
   }

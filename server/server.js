@@ -37,7 +37,7 @@ app.use(
 );
 
 app.use(
-  '/images/metaimage.jpg',
+  '/images/imagemeta.jpg',
   express.static(path.join(__dirname, '../app/assets/images/metaimage.jpg'))
 );
 

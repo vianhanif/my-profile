@@ -33,7 +33,7 @@ app.use(
 // handle browsers requesting favicon
 app.use(
   '/favicon.ico',
-  express.static(path.join(__dirname, '../app/images/favicon/favicon.ico'))
+  express.static(path.join(__dirname, '../app/assets/images/favicon.png'))
 );
 
 // Mount the REST API

@@ -71,6 +71,25 @@ export default connect(
                 </React.Fragment>
               )
             }
+            const techs = () => {
+              return (
+                <div className={style.techs}>
+                  <p className={style.title}>Technologies</p>
+                  <ul>
+                    {exp.techs.map((tech, index) => {
+                      return (
+                        <li key={index}>
+                          <div className={style.image}>
+                            <img src={tech.icon} alt=""/>
+                          </div>
+                          <p>{tech.desc}</p>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              )
+            }
             return (
               <div key={key} className={exp.freelance ? 'col-40' : 'col-100-fit'}>
                 <div className={exp.freelance ? style.freelance : style.panel}>
@@ -78,14 +97,17 @@ export default connect(
                     <div className={`col-${left}-fit ${key % 2 === 0 ? style.exp_image : style.exp_desc}`}>
                       {key % 2 === 0 && carousel(style.left) }
                       {key % 2 !== 0 && side(style.left) }
+                      {key % 2 !== 0 && techs() }
                     </div>
                     <div className={`col-${right}-fit ${key % 2 === 0 ? style.exp_desc : style.exp_image}`}>
                       {key % 2 !== 0 && carousel(style.right) }
                       {key % 2 === 0 && side(style.right) }
+                      {key % 2 === 0 && techs() }
                     </div>
                   </div>}
                   {exp.freelance && <div>
                     {freelance()}
+                    {techs()}
                   </div>}
                 </div>
               </div>

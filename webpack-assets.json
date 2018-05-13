@@ -10,6 +10,7 @@
   "assets": {
     "./app/assets/images/ahwalnote.png": "http://localhost:3001/assets/6913004d246a2179c257cf104c8fa8be.png",
     "./app/assets/images/amikom.png": "http://localhost:3001/assets/a825be9c9ca85f840fc287bfff1393ea.png",
+    "./app/assets/images/ckeditor.png": "http://localhost:3001/assets/c9da698505c2e160875df1cf93377868.png",
     "./app/assets/images/donorkita.png": "http://localhost:3001/assets/1a945247b33190c7e1d97262ba57534c.png",
     "./app/assets/images/image1.jpg": "http://localhost:3001/assets/0296a2e0af16cbcebcca543ead8ad122.jpg",
     "./app/assets/images/image10.jpg": "http://localhost:3001/assets/e1a06814cdac2a5241f0492a0c1995d9.jpg",

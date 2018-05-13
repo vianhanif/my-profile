@@ -146,7 +146,7 @@ export default {
             options: {
               pngquant: {
                 quality: '70-80',
-                speed: 1
+                speed: 4
               }
             }
           }

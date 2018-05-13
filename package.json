@@ -1,12 +1,12 @@
 {
-  "name": "universal-react-redux",
-  "description": "Universal React/Redux boilerplate with sensible defaults.",
-  "version": "6.3.0",
+  "name": "my-profile",
+  "description": "Vian Hanif Profile Web App",
+  "version": "1.0.0",
   "license": "MIT",
-  "main": "client/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/combine/universal-react-redux.git"
+    "url": "https://github.com/vianhanif/my-profile.git"
   },
   "engines": {
     "node": "9.3.0",

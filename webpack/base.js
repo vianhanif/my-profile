@@ -142,13 +142,7 @@ export default {
             }
           },
           {
-            loader: 'image-webpack-loader',
-            options: {
-              pngquant: {
-                quality: '70-80',
-                speed: 4
-              }
-            }
+            loader: 'image-webpack-loader'
           }
         ]
       },

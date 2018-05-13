@@ -23,14 +23,13 @@ class Page extends Component {
       updated,
       category,
       tags
-    },
-    pathname
+    }
   ) {
     const theTitle = title
-      ? (title + defaultSep + defaultTitle).substring(0, 60)
+      ? title
       : defaultTitle;
     const theDescription = description
-      ? description.substring(0, 155)
+      ? description
       : defaultDescription;
     const theImage = image ? image : defaultImage;
 
@@ -47,7 +46,7 @@ class Page extends Component {
       { name: 'twitter:image:src', content: theImage },
       { property: 'og:title', content: theTitle },
       { property: 'og:type', content: contentType || 'website' },
-      { property: 'og:url', content: defaultUrl + pathname },
+      { property: 'og:url', content: defaultUrl },
       { property: 'og:image', content: theImage },
       { property: 'og:description', content: theDescription },
       { property: 'og:site_name', content: defaultTitle },
@@ -86,15 +85,15 @@ class Page extends Component {
             itemtype: `http://schema.org/${rest.schema || 'WebPage'}`
           }}
           title={
-            rest.title ? rest.title + defaultSep + defaultTitle : defaultTitle
+            rest.title ? rest.title : defaultTitle
           }
           link={[
             {
               rel: 'canonical',
-              href: defaultUrl + this.props.location.pathname
+              href: defaultUrl
             }
           ]}
-          meta={this.getMetaTags(rest, this.props.location.pathname)}
+          meta={this.getMetaTags(rest)}
         />
         {children}
       </div>

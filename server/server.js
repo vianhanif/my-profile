@@ -38,7 +38,7 @@ app.use(
 
 app.use(
   '/images/metaimage.jpg',
-  express.static(path.join(__dirname, '../app/assets/images/image9.jpg'))
+  express.static(path.join(__dirname, '../app/assets/images/metaimage.jpg'))
 );
 
 // Mount the REST API

@@ -45,12 +45,12 @@ export default connect(
             <Travel/>
           </div>
         </div>
-        <div className="col achievement not-desktop">
+        <div className="col travel not-desktop">
           <div className="col-100">
             <Travel/>
           </div>
         </div>
-        <div className="col sectioned">
+        <div className="col sectioned other">
           <div className="col-70">
             <Achievement/>
           </div>

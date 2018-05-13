@@ -36,6 +36,11 @@ app.use(
   express.static(path.join(__dirname, '../app/assets/images/favicon.png'))
 );
 
+app.use(
+  '/images/metaimage.jpg',
+  express.static(path.join(__dirname, '../app/assets/images/image9.jpg'))
+);
+
 // Mount the REST API
 app.use('/api', Api);
 

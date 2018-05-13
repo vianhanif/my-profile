@@ -10,7 +10,7 @@ export default [
       id: 'homepage',
       title: `@vianhanif - Hi, There!`,
       description: 'Just a plain profile page for Alvian Rahman Hanif',
-      image: '/images/image9.jpg'
+      image: '/images/metaimage.jpg'
     }
   },
   {

@@ -26,27 +26,20 @@ export default connect(
   }
 
   render() {
+    const educations = require('./educations').default
     return (
       <div className={style.education}>
         <h4>Education</h4>
         <div className={style.panel}>
           <ul className={style.yearly}>
-            <li>
-              <span className={style.year}>2000 - 2006</span>
-              <span className={style.educate}>SD Yaspen Tugu Ibu</span>
-            </li>
-            <li>
-              <span className={style.year}>2006 - 2009</span>
-              <span className={style.educate}>SMPN 4 Depok</span>
-            </li>
-            <li>
-              <span className={style.year}>2009 - 2012</span>
-              <span className={style.educate}>SMA Lazuardi GIS</span>
-            </li>
-            <li>
-              <span className={style.year}>2012 - today</span>
-              <span className={style.educate}>SARMAG (Faculty of Industry)</span>
-            </li>
+            {educations.map((edu, index) => {
+              return (
+                <li key={index}>
+                  <span className={style.year}>{edu.from} - {edu.to}</span>
+                  <span className={style.educate}>{edu.desc}</span>
+                </li>
+              )
+            })}
           </ul>
         </div>
       </div>

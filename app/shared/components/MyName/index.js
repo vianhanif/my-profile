@@ -26,6 +26,7 @@ export default connect(
   }
 
   render() {
+    const social = require('./social').default
     return (
       <div className={style.myname}>
         <div className={style.image}>
@@ -34,15 +35,13 @@ export default connect(
         <h4>Vian Hanif</h4>
         <div>
           <ul className={style.social}>
-            <li>
-              <a href="https://www.facebook.com/vian.hanif.1" target="_blank">Facebook</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/vianhanif.in/" target="_blank">Instagram</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/vianhanif/" target="_blank">Linkedin</a>
-            </li>
+            {social.map((link, index) => {
+              return (
+                <li key={index}>
+                  <a href={link.url} target="_blank">{link.desc}</a>
+                </li>
+              )
+            })}
           </ul>
         </div>
         <div className={style.description}>

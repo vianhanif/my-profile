@@ -1,7 +1,7 @@
 npm-error.log
 node_modules
 npm-debug.log*
-/*.env
+.env
 .DS_Store
 
 # ignore built static files

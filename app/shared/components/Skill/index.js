@@ -26,106 +26,25 @@ export default connect(
   }
 
   render() {
+    const skills = require('./skills').default
+    const title = `{<span style="color: #FFEE58;">Object</span>} to play with`
     return (
       <div className={style.skill}>
-        <ul>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Photoshop</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Illustrator</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Java</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>PHP</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Ruby</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Javascript</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Python</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>C++</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>HTML</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>CSS</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Shellscript</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Rails</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Vue.js</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>React.js</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>SASS</p>
-          </li>
-          <li>
-            <div className={style.image}>
-              <img src="" alt=""/>
-            </div>
-            <p>Webpack</p>
-          </li>
-        </ul>
+        <h4 dangerouslySetInnerHTML={{__html: title}}/>
+        <div className={style.panel}>
+          <ul>
+            {skills.map((skill, index) => {
+              return (
+                <li key={index}>
+                  <div className={style.image}>
+                    <img src={skill.icon} alt=""/>
+                  </div>
+                  <p>{skill.desc}</p>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       </div>
     );
   }

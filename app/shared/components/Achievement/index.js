@@ -29,7 +29,7 @@ export default connect(
     const achievements = require('./achievements').default
     return (
       <div className={style.achievement}>
-        <h4>Achievements</h4>
+        <h4>A Few Moments to Remember</h4>
         <div className={style.inlined}>
           <div className={style.panel}>
             {achievements.slice(0, 3).map((achieve, index) => {

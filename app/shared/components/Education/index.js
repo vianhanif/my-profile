@@ -29,7 +29,7 @@ export default connect(
     const educations = require('./educations').default
     return (
       <div className={style.education}>
-        <h4>Education</h4>
+        <h4>Read & Playgrounds</h4>
         <div className={style.panel}>
           <ul className={style.yearly}>
             {educations.map((edu, index) => {

@@ -30,7 +30,7 @@ export default connect(
     const images = require('./images').default
     return (
       <div className={style.achievement}>
-        <h4>Travel</h4>
+        <h4>A Glimpse of Time</h4>
         <div className={style.panel}>
           <Carousel emulateTouch showIndicators={false} showThumbs={false} showStatus={false}>
             {images.map((image, index) => {

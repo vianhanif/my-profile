@@ -54,6 +54,9 @@ export default connect(
           <div className="col-70">
             <Achievement/>
           </div>
+          <div className="col-30">
+            <Skill/>
+          </div>
         </div>
       </div>
     );

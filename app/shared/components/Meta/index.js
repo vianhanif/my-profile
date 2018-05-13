@@ -31,7 +31,7 @@ class Page extends Component {
     const theDescription = description
       ? description
       : defaultDescription;
-    const theImage = image ? image : defaultImage;
+    const theImage = image ? `${defaultUrl}${image}` : defaultImage;
 
     const metaTags = [
       { itemprop: 'name', content: theTitle },

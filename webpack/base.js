@@ -137,7 +137,17 @@ export default {
           {
             loader: 'url-loader',
             options: {
-              limit: 10240
+              limit: 10240,
+              name: 'images/[name].[hash].[ext]'
+            }
+          },
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              pngquant: {
+                quality: '80-90',
+                speed: 1
+              }
             }
           }
         ]

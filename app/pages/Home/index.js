@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
+import Emoji from 'react-emoji-render'
 import {
   MyName,
   Education,
@@ -67,7 +68,7 @@ export default connect(
         </div>
         <div className="col sectioned other">
           <div className="col-100">
-            <p className="info-soon">and more insight coming soon</p>
+            <p className="info-soon">and more insight coming soon <Emoji text=":wink:"/></p>
           </div>
         </div>
       </div>

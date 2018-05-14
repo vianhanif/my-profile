@@ -65,6 +65,11 @@ export default connect(
             <Experience/>
           </div>
         </div>
+        <div className="col sectioned other">
+          <div className="col-100">
+            <p className="info-soon">and more insight coming soon</p>
+          </div>
+        </div>
       </div>
     );
   }

@@ -18,4 +18,15 @@
       order: 5;
     }
   }
+  .info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    &-soon {
+      @extend .info;
+      color: #BABCD9;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
 }

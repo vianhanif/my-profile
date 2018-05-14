@@ -28,7 +28,7 @@ export default connect(
 
   render() {
     const experiences = require('./experiences').default
-    const title = `Spent Time with <span style="color:#FFEE58;">Team</span>s`
+    const title = `Time Spent with <span style="color:#FFEE58;">Team</span>s`
     return (
       <div className={style.experience}>
         <h4 dangerouslySetInnerHTML={{__html: title}}/>

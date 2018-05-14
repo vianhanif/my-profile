@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import config from '@config/'
 import Helmet from 'react-helmet';
+import { toArray } from 'react-emoji-render'
 
 const defaultUrl = config.url.default;
 const defaultTitle = config.meta.title.default;
@@ -75,7 +76,6 @@ class Page extends Component {
 
   render() {
     const { children, id, className, ...rest } = this.props;
-
     return (
       <div id={id} className={className}>
         <Helmet
@@ -84,17 +84,20 @@ class Page extends Component {
             itemscope: undefined,
             itemtype: `http://schema.org/${rest.schema || 'WebPage'}`
           }}
-          title={
-            rest.title ? rest.title : defaultTitle
-          }
           link={[
             {
               rel: 'canonical',
               href: defaultUrl
             }
           ]}
-          meta={this.getMetaTags(rest)}
-        />
+          meta={this.getMetaTags(rest)}>
+        <title>
+          {toArray(rest.title ? rest.title : defaultTitle).map((content, index) => {
+            if (typeof content === 'string') {return content}
+            if (typeof content !== 'string') {return content.props.children}
+          })}
+        </title>
+      </Helmet>
         {children}
       </div>
     );

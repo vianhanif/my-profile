@@ -8,7 +8,7 @@ export default [
     component: Home,
     meta: {
       id: 'homepage',
-      title: `@vianhanif - Hi, There!`,
+      title: `@vianhanif - Hi, There! :wave: :blush:`,
       description: 'Just a plain profile page for Alvian Rahman Hanif',
       image: '/images/metaimage.jpg'
     }

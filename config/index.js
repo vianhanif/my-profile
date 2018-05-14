@@ -7,6 +7,7 @@ module.exports = {
       separator: ''
     },
     description: 'Vian Hanif Profile Page',
+    image: '/images/metaimage.jpg'
   },
   url: {
     default: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://vianhanif.com'

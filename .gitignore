@@ -5,6 +5,7 @@ npm-debug.log*
 .DS_Store
 
 # ignore built static files
+core.*
 /dist
 /build
 /src

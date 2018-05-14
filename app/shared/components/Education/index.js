@@ -32,16 +32,16 @@ export default connect(
       <div className={style.education}>
         <h4 dangerouslySetInnerHTML={{__html: title}}/>
         <div className={style.panel}>
-          <ul className={style.yearly}>
+          <table className={style.yearly}>
             {educations.map((edu, index) => {
               return (
-                <li key={index}>
-                  <span className={style.year}>{edu.from} - {edu.to}</span>
-                  <span className={style.educate}>{edu.desc}</span>
-                </li>
+                <tr key={index}>
+                  <td className={style.year}>{edu.from} - {edu.to}</td>
+                  <td className={style.educate}>{edu.desc}</td>
+                </tr>
               )
             })}
-          </ul>
+          </table>
         </div>
       </div>
     );

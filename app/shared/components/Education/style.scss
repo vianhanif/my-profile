@@ -19,7 +19,8 @@
       list-style: none;
       padding-top: 10px;
       padding-bottom: 15px;
-      li {
+      tr {
+        display: flex;
         padding-top: 3px;
         padding-bottom: 3px;
         .year {
@@ -27,6 +28,7 @@
           font-size: 14px;
           font-weight: 300;
           padding-right: 10px;
+          min-width: 90px;
         }
         .educate {
           color: rgba(#000,.69);

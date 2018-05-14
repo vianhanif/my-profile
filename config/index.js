@@ -9,7 +9,7 @@ module.exports = {
     description: 'Vian Hanif Profile Page',
   },
   url: {
-    default: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://vianhanif.herokuapp.com'
+    default: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://vianhanif.com'
   },
   // Enable or disable server-side rendering
   enableSSR: true,

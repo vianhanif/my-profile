@@ -44,6 +44,10 @@ export default [
     desc: 'Shellscript'
   },
   {
+    icon: 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/landscape/expressjslogo.png',
+    desc: 'Express'
+  },
+  {
     icon: 'https://thinkster.io/assets/homepage/rails-9b13de39de9d2eed10a2418734ee1e584cdc9634c04206af1c2bfcc8b0d0e3d5.png',
     desc: 'Rails'
   },

@@ -1,5 +1,6 @@
 import Home from '@pages/Home'
 import Page404 from '@pages/404'
+import Login from '@pages/Login'
 
 export default [
   {
@@ -7,10 +8,15 @@ export default [
     exact: true,
     component: Home,
     meta: {
-      id: 'homepage',
-      title: `@vianhanif - Hi, There! :wave: :blush:`,
-      description: 'Just a plain profile page for Alvian Rahman Hanif',
-      image: '/images/metaimage.jpg'
+      id: 'homepage'
+    }
+  },
+  {
+    path: '/login',
+    exact: true,
+    component: Login,
+    meta: {
+      id: 'loginpage'
     }
   },
   {

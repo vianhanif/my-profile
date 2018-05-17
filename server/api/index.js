@@ -1,6 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import todos from './todos';
+import oauth from './oauth'
 
 const Api = express();
 
@@ -15,5 +16,6 @@ Api.use(bodyParser.json());
 
 // Add all API endpoints here
 Api.use('/todos', todos);
+Api.use('/oauth', oauth);
 
 export default Api;

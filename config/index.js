@@ -3,10 +3,10 @@ module.exports = {
   meta: {
     twitter: '@vianhanif',
     title: {
-      default: '',
+      default: '@vianhanif - Hi, There! :wave: :blush:',
       separator: ''
     },
-    description: 'Vian Hanif Profile Page',
+    description: 'Just a plain profile page for Alvian Rahman Hanif',
     image: '/images/metaimage.jpg'
   },
   url: {

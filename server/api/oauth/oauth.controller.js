@@ -18,13 +18,11 @@ export const callback = (req, res) => {
   }
   oauth.authorizationCode.getToken(options).then(
     (result) => {
-      console.log('token : ', result)
-      const token = oauth.accessToken.create(result)
-      return res.status(200).json(token)
+      const value = oauth.accessToken.create(result)
+      return res.redirect(`/load_token?token=${value.token.access_token}`)
     },
     (error) => {
-      console.error('error access token', error.message)
-      return res.status(500).json('Authentication failed')
+      return res.status(500).json(error.message)
     }
   )
 }

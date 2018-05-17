@@ -30,7 +30,7 @@ export default connect(
     return (
       <div className="contained page" id="login">
         <div className="panel">
-          <h4>Is it you ?</h4>
+          <h4>You need to login</h4>
           <a href="/api/oauth/login">
             <img src={require('@css/images/github.png')}/>
           </a>

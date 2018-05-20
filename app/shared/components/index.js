@@ -7,8 +7,10 @@ import Skill from './Skill'
 import Timeline from './Timeline'
 import Achievement from './Achievement'
 import Experience from './Experience'
+import MyLocation from './MyLocation'
 
 export {
+  MyLocation,
   Meta,
   RouteWithSubRoutes,
   MyName,

@@ -1,4 +1,4 @@
-import Home from '@pages/Home'
+import Home from '@pages/v2/Home'
 import Page404 from '@pages/404'
 import Login from '@pages/Login'
 import LoadToken from '@pages/Login/load_token'
@@ -10,7 +10,8 @@ export default [
     exact: true,
     component: Home,
     meta: {
-      id: 'homepage'
+      id: 'homepage',
+      title: 'Home Page'
     }
   },
   {

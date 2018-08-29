@@ -13,7 +13,7 @@ import {
   Timeline,
   Experience
 } from '@components/'
-import '../../assets/styling/pages/Home/index.scss'
+import '../../../assets/styling/pages/v1/Home/index.scss'
 
 export default connect(
   state => ({ ...state }),

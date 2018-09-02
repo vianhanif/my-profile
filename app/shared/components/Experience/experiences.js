@@ -1,5 +1,30 @@
 export default [
   {
+    from: 'May 2018',
+    to: 'Present',
+    company: 'PT. EBABA MUSLIM INDONESIA',
+    rolename: 'Rails Engineer',
+    description: `Ebaba.com is a subdivision company from F-Corp, a market place for muslim fashion with OOTD (Outfit Of The Day) as it's most unique feature. In 2018, entering its revamp phase for 2nd version, I contribute in developing features and operational needs with React & Rails.`,
+    role_descripsion: 'Developing features and operational needs with React & Rails',
+    photos: [
+      require('@css/images/image28.gif')
+    ],
+    techs: [
+      {
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png',
+        desc: 'React.js'
+      },
+      {
+        icon: 'https://thinkster.io/assets/homepage/rails-9b13de39de9d2eed10a2418734ee1e584cdc9634c04206af1c2bfcc8b0d0e3d5.png',
+        desc: 'Rails'
+      },
+      {
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png',
+        desc: 'PostgreSQL'
+      }
+    ]
+  },
+  {
     from: 'April 2017',
     to: 'March 2018',
     company: 'PT. Dinamika Mitra Sukses Makmur',

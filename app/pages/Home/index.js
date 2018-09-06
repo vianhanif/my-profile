@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
 import Emoji from 'react-emoji-render'
+import { Analytics } from '../../shared/utils';
 import {
   MyName,
   Education,
@@ -33,6 +34,11 @@ export default connect(
     this.state = {
 
     };
+  }
+
+  componentDidMount() {
+    Analytics.InitAnalytics()
+    Analytics.savePageToAnalytics(window.location.pathname + window.location.search)
   }
 
   render() {

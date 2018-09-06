@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
 import Emoji from 'react-emoji-render'
-import { Analytics } from '../../shared/utils';
+import { Analytics } from '../../../client/Analytics';
 import {
   MyName,
   Education,

@@ -12,12 +12,12 @@ const moduleAliasesMap = mapValues(
 
 const cssFiles = '\\.(css|scss|less)$';
 const staticFiles =
-  '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|' +
-  'webm|wav|mp3|m4a|aac|oga)$';
+  '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$';
 
 module.exports = {
   verbose: true,
   moduleFileExtensions: ['js', 'jsx'],
+  testURL: 'http://localhost',
   rootDir: process.cwd(),
   snapshotSerializers: ['enzyme-to-json/serializer'],
   setupTestFrameworkScriptFile: '<rootDir>/test/support/jest.setup.js',

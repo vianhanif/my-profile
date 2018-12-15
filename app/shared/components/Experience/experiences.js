@@ -3,11 +3,11 @@ export default [
     from: 'May 2018',
     to: 'Present',
     company: 'PT. EBABA MUSLIM INDONESIA',
-    rolename: 'Rails Engineer',
+    rolename: 'Software Engineer',
     description: `Ebaba.com is a subdivision company from F-Corp, a market place for muslim fashion with OOTD (Outfit Of The Day) as it's most unique feature. In 2018, entering its revamp phase for 2nd version, I contribute in developing features and operational needs with React & Rails.`,
     role_descripsion: 'Developing features and operational needs with React & Rails',
     photos: [
-      require('@css/images/image28.gif')
+      require('@css/images/ebaba.jpg')
     ],
     techs: [
       {

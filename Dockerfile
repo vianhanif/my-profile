@@ -1,6 +1,5 @@
-FROM node:alpine
+FROM node:9.3.0
 LABEL maintaner="alvian524@gmail.com"
-ENV NODE_ENV production
 
 # create app directory
 RUN mkdir -p /usr/src/app

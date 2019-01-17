@@ -12,10 +12,10 @@ RUN npm install
 
 # bundle app source
 COPY . /usr/src/app
-RUN npm run build
+RUN npm run prod:build
 
 # Set the command to start the node server.
-CMD npm run prod
+CMD npm run serve
 
 # exposing port
 EXPOSE 3000

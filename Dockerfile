@@ -1,4 +1,4 @@
-FROM node:9.3.0
+FROM node:alpine
 LABEL maintaner="alvian524@gmail.com"
 
 # create app directory

@@ -1,0 +1,13 @@
+version: '2'
+services:
+  app:
+    image: my-profile:0.2
+    build: .
+    command: npm run serve
+    environment:
+      NODE_ENV: production
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
